@@ -12,7 +12,7 @@ body {
     background-color: bisque;
 }
 
-.item-container {
+#item-container {
     position: absolute;
     width: 504px;
     height: 0px;
