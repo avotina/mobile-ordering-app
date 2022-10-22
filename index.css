@@ -3,109 +3,20 @@ body {
 } 
 
 .container {
-    background: url(ferks-guare-KEZdWfYD-ow-unsplash.jpg);
-    position: absolute;
+    position: relative;
     width: 600px;
-    height: 400px;
-    left: 0px;
-    top: -153px;
-    background-color: bisque;
+    height: 1161px;
+    background: #FFFFFF;
+    border: 1px red solid;
 }
 
-#item-container {
-    position: absolute;
-    width: 504px;
-    height: 0px;
-    left: 50px;
-    top: 374px;
-
-    border: 1px solid #D2D2D2;
+header {
+    object-fit: cover;
+    width: 600px;
+    height: 300px;
+    margin-top: 0;
 }
 
-.emoji {
-    position: absolute;
-    width: 70px;
-    height: 89px;
-    left: 46px;
-    top: 234px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 78.72px;
-    line-height: 98px;
-    /* or 125% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.02em;
-
-    color: #000000;
-
-    opacity: 0.72;
-}
-
-
-.title {
-    position: absolute;
-    width: 43px;
-    height: 17px;
-    left: 147px;
-    top: 241.2px;
-
-    font-family: 'Smythe';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 17px;
-/* identical to box height, or 60% */
-
-    color: #000000;
-}
-
-.ingredients {
-    position: absolute;
-    width: 358px;
-    height: 24px;
-    left: 147px;
-    top: 267px;
-
-    font-family: 'Smythe';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-/* identical to box height, or 150% */
-
-
-    color: #8B8B8B;
-}
-
-.price {
-    position: absolute;
-    width: 19px;
-    height: 24px;
-    left: 147px;
-    top: 299px;
-
-    font-family: 'Smythe';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    /* identical to box height, or 120% */
-
-    color: #000000;
-}
-
-.order-btn {
-    box-sizing: border-box;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 504px;
-    top: 242px;
-
-    border: 1.5px solid #DEDEDE;
+image {
+    background-image: url("image.jpg");
 }
