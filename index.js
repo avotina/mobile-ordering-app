@@ -1,14 +1,37 @@
 import { menuArray } from "/data.js";
 
-function render() {
-    let itemHtml = ""
-    menuArray.forEach(function(item) {
-        itemHtml += `
-        <p>${item.name}</p>
-        `
-    })
+const incBtn = document.getElementsByClassName("increaseBtn")
+const finalOrder = []
 
-    document.getElementById("items-info").innerHTML = itemHtml
+function renderPosts() {
+    let postsHtml = ""
+    menuArray.forEach(function(post) {
+        postsHtml += `
+        <div class="fx">
+            <p>${post.emoji}</p>
+            <p>${post.name}</p>
+            <p>${post.ingredients}</p>
+            <p>$${post.price}</p>
+            <button class="increaseBtn">+</button>
+        </div>
+        `    
+          
+    })
+    document.getElementById("container").innerHTML = postsHtml
+}
+    
+renderPosts()
+
+incBtn.forEach(function(btn) {
+    btn.addEventListener("click", function() {
+        console.log("clicked")
+    })
+})
+
+
+function addToOrder() {
+  
 }
 
-render()
+// addToOrder()
+
